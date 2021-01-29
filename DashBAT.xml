@@ -1,0 +1,45 @@
+<DashData>
+    <Flags>
+        <Group heading="Inputs">
+            <Flag index="1" heading="Ignition" OnState="1" />
+            <Flag index="2" heading="Input 1" OnState="1" />
+            <Flag index="3" heading="Input 2" OnState="1" />
+            <Flag index="4" heading="Input 3" OnState="1" />
+            <Flag index="5" heading="Input 4" OnState="1" />
+        </Group>
+        <Group heading="Trip">
+            <Flag index="19" heading="Trip In Progress" OnState="1" />
+        </Group>
+        <Group heading="Outputs">
+            <Flag index="15" heading="Output 1" OnState="1" />
+            <Flag index="16" heading="Output 2" OnState="1" />
+            <Flag index="17" heading="Output 3" OnState="1" />
+            <Flag index="18" heading="Output 4" OnState="1" />
+        </Group>
+    </Flags>
+    <Globals>		
+		<Group heading="GPS">
+            <Global index="4"  length="4" scale="0.0000001" offset="0"  heading="Latitude" unit="Degrees" format="" />
+			<Global index="4"  length="4" scale="1" offset="0"  heading="Latitude" unit="" format="Hex" />
+            <Global index="5"  length="4" scale="0.0000001" offset="0"  heading="Longitude" unit="Degrees" format="" />
+			<Global index="5"  length="4" scale="1" offset="0"  heading="Longitude" unit="" format="Hex" />
+            <Global index="13" length="2" scale="1" offset="0" heading="Altitude" unit="Meters" format="" />
+            <Global index="14" length="2" scale="0.1" offset="0" heading="Heading" unit="Degrees" format="" />
+            <Global index="15" length="1" scale="1" offset="0" heading="GPS Status" unit="" format="Hex" />
+            <Global index="2"  length="1" scale="1" offset="0" heading="GPS Speed" unit="km/h" format="" />
+            <Global index="90" length="1" scale="1" offset="0" heading="Satellite Count" unit="" format="" />
+            <Global index="91" length="2" scale="1" offset="0" heading="Nav Mode" unit="" format="Hex" />
+            <Global index="16" length="2" scale="1" offset="0" heading="Position Age" unit="s" format="" />
+        </Group>
+        <Group heading="Custom Data">			
+            <Global index="136" length="1"  scale="1" offset="0" heading="Custom 0 Variable 0" unit="" format="Hex" />
+			<Global index="137" length="1"  scale="1" offset="0" heading="Custom 0 Variable 1" unit="" format="Hex" />
+			<Global index="138" length="1"  scale="1" offset="0" heading="Custom 0 Variable 2" unit="" format="Hex" />
+			<Global index="139" length="1"  scale="1" offset="0" heading="Custom 0 Variable 3" unit="" format="Hex" />
+			<Global index="140" length="1"  scale="1" offset="0" heading="Custom 0 Variable 4" unit="" format="Hex" />
+			<Global index="141" length="1"  scale="1" offset="0" heading="Custom 0 Variable 5" unit="" format="Hex" />
+            <Global index="142" length="1"  scale="1" offset="0" heading="Custom 0 Variable 6" unit="" format="Hex" />
+			<Global index="177" length="1"  scale="1" offset="0" heading="Custom 1 Variable 0" unit="" format="Hex" />
+        </Group>
+    </Globals>
+</DashData>

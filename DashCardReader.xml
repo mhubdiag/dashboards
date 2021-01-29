@@ -1,0 +1,29 @@
+<DashData>
+    <Flags>
+        <Group heading="Inputs">
+            <Flag index="1" heading="Ignition" OnState="1" />
+        </Group>
+        <Group heading="Trip">
+            <Flag index="19" heading="Trip In Progress" OnState="1" />
+        </Group>
+        <Group heading="License Flags">
+           <Flag index="153" heading="Dangerous Goods" OnState="1" />
+	   <Flag index="160" heading="License Type 1" OnState="1" />
+	   <Flag index="161" heading="License Type 2" OnState="1" />
+	   <Flag index="162" heading="License Type 3" OnState="1" />
+	   <Flag index="163" heading="License Type 4" OnState="1" />
+	   <Flag index="164" heading="License Type 5" OnState="1" />
+	   <Flag index="165" heading="License Type 6" OnState="1" />
+	   <Flag index="166" heading="License Type 7" OnState="1" />
+	   <Flag index="167" heading="License Type 8" OnState="1" />			
+	   <Flag index="173" heading="License Type Personal" OnState="1" />			
+        </Group>
+    </Flags>
+    <Globals>
+        <Group heading="Trip">
+            <Global index="107" length="2"  scale="1" offset="0" heading="Trip Duration" unit="s" format="" />
+            <Global index="111" length="2"  scale="1" offset="0" heading="Trip Stationary Time" unit="s" format="" />
+            <Global index="10" length="4"  scale="1" offset="0" heading="Trip Distance" unit="m" format="" />
+        </Group>
+    </Globals>
+</DashData>

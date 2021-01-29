@@ -1,0 +1,35 @@
+<DashData>
+   <Flags>
+      <Group heading="Custom">
+         <Flag index="82" heading="Custom Flag 0" OnState="1" />
+      </Group>
+   </Flags>
+   <Globals>
+      <Group heading="GPS">
+         <Global index="4"  length="4" scale="0.0000001" offset="0"  heading="Latitude" unit="Degrees" format="" />
+         <Global index="5"  length="4" scale="0.0000001" offset="0"  heading="Longitude" unit="Degrees" format="" />
+         <Global index="13" length="2" scale="1" offset="0" heading="Altitude" unit="Meters" format="" />
+         <Global index="14" length="2" scale="0.1" offset="0" heading="Heading" unit="Degrees" format="" />
+         <Global index="15" length="1" scale="1" offset="0" heading="GPS Status" unit="" format="Hex" />
+         <Global index="90" length="1" scale="1" offset="0" heading="Satellite Count" unit="" format="" />
+      </Group>
+      <Group heading="OBC">
+         <Global index="11" length="2"  scale="1" offset="0" heading="DriverID" unit="" format="" />
+      </Group>
+      <Group heading="MHub">
+         <Global index="92" length="1"  scale="1" offset="0" heading="Temperature" unit="Celcius" format="" />
+         <Global index="84" length="2"  scale="1" offset="0" heading="Running Hours" unit="Hrs" format="" />
+         <Global index="102" length="2"  scale="1" offset="0" heading="Cold Boot Count" unit="" format="" />
+         <Global index="99" length="4"  scale="1" offset="0" heading="Main Loop Frequency" unit="Hz" format="" />
+         <Global index="106" length="1"  scale="1" offset="0" heading="CPU Usage" unit="%" format="" />
+      </Group>
+      <Group heading="Date and Time">
+         <Global index="26" length="1"  scale="1" offset="0" heading="Year" unit="" format="" />
+         <Global index="27" length="1"  scale="1" offset="0" heading="Month" unit="" format="" />
+         <Global index="28" length="1"  scale="1" offset="0" heading="Day" unit="" format="" />
+         <Global index="29" length="1"  scale="1" offset="0" heading="Hour" unit="" format="" />
+         <Global index="30" length="1"  scale="1" offset="0" heading="Minute" unit="" format="" />
+         <Global index="31" length="1"  scale="1" offset="0" heading="Second" unit="" format="" />
+      </Group>
+   </Globals>
+</DashData>

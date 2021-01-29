@@ -1,0 +1,21 @@
+<DashData>
+    <Flags>
+        <Group heading="Inputs">
+            <Flag index="1" heading="Ignition" OnState="1" />
+			<Flag index="156" heading="Ignition Pending" OnState="1" />
+        </Group>
+        <Group heading="Trip">
+            <Flag index="19" heading="Trip In Progress" OnState="1" />
+			<Flag index="157" heading="False Trip" OnState="1" />			
+        </Group>
+    </Flags>
+    <Globals>
+        <Group heading="OBC">
+			<Global index="32" length="1"  scale="0.1" offset="0" heading="Mains" unit="V" format="" />
+        </Group>
+        <Group heading="Trip">
+            <Global index="107" length="2"  scale="1" offset="0" heading="Trip Duration" unit="s" format="" />
+			<Global index="70" length="1"  scale="1" offset="0" heading="Trip ID" unit="" format="" />
+        </Group>
+    </Globals>
+</DashData>

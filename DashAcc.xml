@@ -1,0 +1,14 @@
+<DashData>
+    <Flags>
+        <Group heading="Inputs">
+            <Flag index="1" heading="Ignition" OnState="1" />
+        </Group>
+    </Flags>
+    <Globals>
+        <Group heading="Accelerometer">
+            <Global index="162" length="1"  scale="0.02" offset="-2.56" heading="X" unit="g" format="" />
+            <Global index="163" length="1"  scale="0.02" offset="-2.56" heading="Y" unit="g" format="" />
+            <Global index="226" length="1"  scale="0.02" offset="-2.56" heading="Z" unit="g" format="" />
+        </Group>
+    </Globals>
+</DashData>
